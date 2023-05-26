@@ -5,6 +5,7 @@ body, h1 {
 
 h1 {
     font-family: 'Arial', sans-serif;
+    color: black;
 }
 
 .header {
@@ -14,6 +15,7 @@ h1 {
     background-size: cover;
     background-position: center;
     text-align: center;
+    margin-bottom: 0.5%;
 }
 
 .header-div {
@@ -29,4 +31,75 @@ h1 {
     font-size: 80px;
     color: white;
     text-shadow: 0px 0px 10px red;
+}
+
+.main {
+    height: 70%;
+    margin-top: 0.5%;
+    background-image: url("https://top-fon.com/uploads/posts/2023-02/1675423646_top-fon-com-p-krasivii-fon-dlya-prezentatsii-fioletovii-184.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.main-div {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(50, 50, 50, .4);
+}
+.main-section1 {
+    display: inline-block;
+    width: 20%;
+    height: 81%;
+    margin: 3% 5% 4% 10% ;
+    background-color: white;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    border-radius: 5%;
+}
+
+.main-section1:hover {
+    box-shadow: 0px 0px 25px blue;
+}
+
+.main-section2 {
+    display: inline-block;
+    width: 20%;
+    height: 81%;
+    margin: 3% 5% 4% 5%;
+    background-color: white;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    border-radius: 5%;
+}
+
+.main-section2:hover {
+    box-shadow: 0px 0px 25px yellow;
+}
+
+.main-section3 {
+    display: inline-block;
+    width: 20%;
+    height: 81%;
+    margin: 3% 5% 4% 5%;
+    background-color: white;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    border-radius: 5%;
+}
+
+.main-section3:hover {
+    box-shadow: 0px 0px 25px red;
+}
+
+.h1-main-section1 {
+    padding-top: 5%;
+    text-align: center;
+    
+}
+
+.h1-main-section2 {
+    padding-top: 5%;
+    text-align: center;
+}
+
+.h1-main-section3 {
+    padding-top: 5%;
+    text-align: center;
 }
